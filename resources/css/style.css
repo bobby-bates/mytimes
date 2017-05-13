@@ -31,3 +31,27 @@ body, html {
 .header .logo {
   display: inline-flex;
 }
+
+/* columns */
+
+.columns {
+  display: flex;
+  border: 1px solid black;
+  padding-top: 75px;
+}
+
+.columns .large {
+  width: 630px;
+  border: 1px solid black;
+}
+.columns .medium {
+  width: 300px;
+  border: 1px solid black;
+}
+.columns .small {
+  width: 240px;
+  border: 1px solid black;
+}
+.story {
+  border: 1px solid black;
+}
