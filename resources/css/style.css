@@ -39,10 +39,35 @@ body, html {
   border: 1px solid black;
   padding-top: 75px;
 }
-
+.columns h2 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.mother h2,
+.earth h2,
+.research h2,
+.cats h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 .columns .large {
   width: 630px;
   border: 1px solid black;
+}
+.mother h2 {
+  background-image: url("../../resources/images/story-main.png");
+  font-size: 40px;
+}
+.earth h2 {
+  background-image: url("../../resources/images/fall-season.png");
+}
+.research h2 {
+  background-image: url("../../resources/images/hip-cam.png");
+}
+.cats h2 {
+  background-image: url("../../resources/images/cat-ceo.png");
 }
 .columns .medium {
   width: 300px;
