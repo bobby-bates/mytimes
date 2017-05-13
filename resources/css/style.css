@@ -28,9 +28,6 @@ body, html {
 .header a {
   color: black;
 }
-.header img {
-  align-self: center;
-}
 .header .logo {
   display: inline-flex;
 }
