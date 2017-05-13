@@ -1,0 +1,36 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 75px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.header h3 {
+  color: MediumAquamarine;
+}
+.header nav {
+  display: inline-block;
+}
+.header a {
+  color: black;
+}
+.header img {
+  align-self: center;
+}
+.header .logo {
+  display: inline-flex;
+}
