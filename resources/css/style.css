@@ -121,3 +121,34 @@ body, html {
 .story {
   padding: 20px;
 }
+
+/* Footer */
+
+.footer {
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .first {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+}
+.footer h3 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.footer a {
+  color: black;
+}
+.footer .copyright {
+  margin: 0;
+}
